@@ -1,0 +1,9 @@
+/node_modules
+/build
+/dist
+
+# Dotenv file
+.env
+
+# IDE Configs
+.vscode/*
