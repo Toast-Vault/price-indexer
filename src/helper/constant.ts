@@ -1,14 +1,15 @@
 // Quote Token Addresses
 export const mockUSDC = "0x473a827b9B50b2a8A711493C9F80CFeE96f3Be97";
-
+export const vaulerAddress = "0x012d6bC94051C3b9F923c043A51D381903EAC16A"
 // Vault Addresses
 interface Vault {
+  vaultId:string;
     name: string;
     address: string;
   }
   
 export const vaults: Vault[] = [
-    { name: "USDCBTCLINK", address: "0xd995E679A577C29Ad7E06d1e3d194c961930E590" },
+    { vaultId:"vault_1", name: "USDCBTCLINK",  address: "0xd995E679A577C29Ad7E06d1e3d194c961930E590" },
     // Add more vaults here
 ];
 
